@@ -56,6 +56,7 @@
   .box_wrap{
     display:flex;
     flex-direction:column;
+    font-size:20px;
   }
 
 
