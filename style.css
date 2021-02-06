@@ -29,11 +29,6 @@
     margin-top: 0px;
   }
 
-  
-  .png24 {
-    tmp:expression(setPng24(this));
-}
-
 
   .ci{
       
@@ -77,15 +72,17 @@
     height:400px;
     margin:0px;
     */
-    padding-top: 550px;
+    padding-top: 500px;
     padding-bottom: 100px;
     color:#fff;
     text-align: center;
+   
   }
 
 
-  .box > li> ul > h1{
+  .box > li {
     color: #041d46;
+    background-color: rgba( 255, 255, 255, 0.5 )
   }
   
   h1{
