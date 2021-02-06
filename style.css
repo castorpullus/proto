@@ -30,7 +30,11 @@
   }
 
   
-  
+  .png24 {
+    tmp:expression(setPng24(this));
+}
+
+
   .ci{
       
       padding-top: 10px;
@@ -94,20 +98,44 @@
   .box2{
     color:#000;
     font-size:100%;
-    background-color: skyblue;
+    background-color: #fff;
     padding: 60px;  
   }
 
+  .box3_icons{
+    display:flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height:200px;
+  }
+
+  .box3_icons > li{
+    z-index: 2;
+    flex:1;
+    margin-top: 20px;
+    height: 200px;
+    text-align: center;
+  }
+
+  .box3_icons > li:not(:last-child){
+    margin-right: 30px;
+  }
+  
+
+
   .box3{
+    z-index: 1;
     color:#000;
     background-color: coral;
     padding: 60px;  
+    margin-top: -40px;
 
   }
 
   .box4{
     color:#000;
-    background-color: skyblue;
+    background-color: #fff;
     padding: 60px;  
   }
 
@@ -120,7 +148,7 @@
 
   .box6{
     color:#000;
-    background-color: skyblue;
+    background-color: #fff;
     padding: 60px;  
 
   }
