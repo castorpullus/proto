@@ -5,7 +5,7 @@
     border-collapse: collapse;
     margin:0px;
     padding:0px;
-    line-height: 150%;
+    line-height: 170%;
   }
 
   body, html {
@@ -185,8 +185,11 @@
 
   .box > li {  
     margin:0;
-    font-size: 200%;
+    font-size: 270%;
+    padding-left: 100px;
+    padding-right: 100px;
   }
+
   .box{
     padding-top: 360px;
     padding-bottom: 80px;
@@ -208,6 +211,6 @@
 
   .footer{
     font-size: 200%;
-    height:280px;
+    height:250px;
   }
 }
