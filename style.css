@@ -155,8 +155,16 @@
     color:#000;
     background-color: #fff;
     padding: 60px;  
+    list-style-type: square;
+
   }
 
+  .box4 > ul > li{
+    text-indent: 20px;
+    font-size: 18px;
+    font-family: serif;
+    font-weight: 600;;
+  }
 
 
   .box5{
