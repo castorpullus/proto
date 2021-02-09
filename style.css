@@ -184,6 +184,7 @@
 
   .box > li {  
     margin:0;
+    font-size: 200%;
   }
   .box{
     padding-top: 360px;
@@ -191,9 +192,9 @@
   }
 
   .box_wrap{
-    font-size: 120%;
+    font-size: 200%;
     margin: 0 auto;
-    width: 500px;
+    width: 700px;
     background: white;
     padding: 15px;
     }
