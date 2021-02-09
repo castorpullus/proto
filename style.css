@@ -5,7 +5,6 @@
     border-collapse: collapse;
     margin:0px;
     padding:0px;
-    line-height: 170%;
   }
 
   body, html {
@@ -33,7 +32,8 @@
 
   .ci{
       
-      padding-top: 10px;
+      padding-top: 33px;
+      line-height: 190%;
 
   }
 
@@ -71,6 +71,7 @@
     
     padding-top: 520px;
     padding-bottom: 300px;
+    line-height: 190%;
            
   }
 
@@ -89,6 +90,7 @@
     width: 850px;
     background: white;
     padding: 15px;
+    line-height: 190%;
   }
 
 
