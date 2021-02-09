@@ -59,7 +59,12 @@
   .box_wrap{
     display:flex;
     flex-direction:column;
-  }
+    margin: 0 auto;
+    width: 850px;
+    background: white;
+    padding: 15px;
+    line-height: 190%;
+    }
 
 
   .box{
@@ -86,13 +91,7 @@
     background-color: rgba( 0, 0, 0, 0.5 );
   }
 
-  .box_wrap{
-    margin: 0 auto;
-    width: 850px;
-    background: white;
-    padding: 15px;
-    line-height: 190%;
-  }
+
 
 
   h2{
@@ -188,9 +187,20 @@
     color:#000;
     background-color: #fff;
     padding: 60px;  
-    
+    padding-bottom: 0px;
   }
 
+  .connect {
+    text-align: center;
+    padding: 60px;
+    padding-bottom: 0px;
+
+  }
+  
+  .connect > span{
+    padding:30px;
+    
+  }
    
 
   .footer{
@@ -233,7 +243,10 @@
     box-shadow: inset 0 -21px 0 #ff6363; line-height: 52px;
   }
 
+
+
   .footer{
+
     font-size: 200%;
     height:230px;
   }
