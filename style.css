@@ -180,7 +180,7 @@
   }
 
   
-@media(max-width:700px){
+@media(max-width:800px){
 
   .box > li {  
     margin:0;
@@ -191,7 +191,7 @@
   }
 
   .box_wrap{
-    font-size: 160%;
+    font-size: 120%;
     margin: 0 auto;
     width: 500px;
     background: white;
