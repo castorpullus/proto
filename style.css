@@ -187,9 +187,10 @@
 
   .box > li {  
     margin:0;
-    font-size: 200%;
+    font-size: 180%;
     padding-left: 100px;
     padding-right: 100px;
+    line-height: 150%;
   }
 
   .box{
